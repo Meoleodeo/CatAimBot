@@ -3,6 +3,7 @@
 ## Description:
 - A game made by Unity engine (C#)
 - Just for personal project in DeverGame
+## Plot:
 > [_Video-Demo_](https://youtu.be/RMzKPTu2Nwo)
 ## Install:
 ```bash
@@ -13,11 +14,13 @@ echo thanks
 ## Screenshot:
 ![DEMO](./screenshoot/demo.png)
 ## Main Features include:
-- Depends on [version]
-- update later
+- Count point (Rat sellect circleObject)
+- END GAME (Cat touch Rat)
 ## Tutorial:
-- Press W_Key or Space_Key: jump
-- Press A_Key or Left_Key: move left
-- Press D_Key or Right_Key: move right
-
-
++ Player 1: **Cat**
+- Press W_Key: move up
+- Press S_Key: move down
+- Press A_Key: move left
+- Press D_Key: move right
++ Player 2: **Rat**
+- Arrow keys to move in directions

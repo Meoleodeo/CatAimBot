@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnObject : MonoBehaviour
 {
     private SpriteRenderer sprite;
     [SerializeField] private float distance;
+    [SerializeField] private Text pointText;
+
+    private int point = 0;
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -13,8 +17,10 @@ public class SpawnObject : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Rat")
         {
+            point++;
+            pointText.text = "Rat: "+point;
             MoveToRandomPosition();
         }
     }

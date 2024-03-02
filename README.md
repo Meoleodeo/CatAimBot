@@ -5,9 +5,7 @@
 - Just for personal project in DeverGame
 > [_Video-Demo_](https://youtu.be/RMzKPTu2Nwo)
 ## Play on browser:
-<a href="https://meoleodeo.itch.io/cat-catch-rat" target="_blank">
-![overView](./screenshot/image.png)
-</a>
+![[overView](./screenshot/image.png)](https://meoleodeo.itch.io/cat-catch-rat)
 
 ## Install:
 ```bash

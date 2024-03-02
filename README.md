@@ -5,7 +5,10 @@
 - Just for personal project in DeverGame
 > [_Video-Demo_](https://youtu.be/RMzKPTu2Nwo)
 ## Play on browser:
-<iframe frameborder="0" src="https://itch.io/embed/2556852?border_width=5&amp;bg_color=402247&amp;fg_color=ffffff&amp;link_color=10c3f6&amp;border_color=476f87" width="560" height="175"><a href="https://meoleodeo.itch.io/cat-catch-rat">Cat Catch Rat by Mèo leo đèo</a></iframe>
+[![Cat Catch Rat](https://img.itch.zone/aW1hZ2UvMjU1Njg1Mi82MTk2ODMucG5n/original/L5%2FKa3.png)](https://meoleodeo.itch.io/cat-catch-rat)
+
+<iframe frameborder="0" src="https://itch.io/embed/2556852?border_width=5&amp;bg_color=402247&amp;fg_color=ffffff&amp;link_color=10c3f6&amp;border_color=476f87" width="560" height="175"></iframe>
+
 
 ## Install:
 ```bash

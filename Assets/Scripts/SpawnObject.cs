@@ -28,7 +28,7 @@ public class SpawnObject : MonoBehaviour
     void MoveToRandomPosition()
     {
         Vector2 newPosition = new Vector2(
-            Random.Range(-distance, distance),
+            Random.Range(-distance*(16/9), distance*(16/9)),
             Random.Range(-distance, distance)
         );
 

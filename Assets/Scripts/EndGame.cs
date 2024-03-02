@@ -9,7 +9,7 @@ public class EndGame : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Rat"))
         {
-            SceneManager.LoadScene("GameLose");      
+            SceneManager.LoadScene("CatWin");      
         }
     }
 }

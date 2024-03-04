@@ -5,18 +5,16 @@ using UnityEngine.Tilemaps;
 
 public class GameTilemapSwitcher : MonoBehaviour
 {
-    [SerializeField] public float switchInterval;
+    private float switchInterval = 5f;
     public Tilemap[] tilemaps;
 
-    private Tilemap currentTilemap;
+    public Tilemap currentTilemap;
     private int currentTilemapIndex = 0;
     private float timer;
 
     void Start()
     {
         timer = switchInterval;
-        SwitchTilemap();
-        currentTilemap.gameObject.SetActive(false);
     }
 
     void Update()
@@ -37,8 +35,7 @@ public class GameTilemapSwitcher : MonoBehaviour
             {
                 currentTilemap.gameObject.SetActive(false);
             }
-
-            currentTilemapIndex = (currentTilemapIndex + 1) % tilemaps.Length;
+            currentTilemapIndex = Random.Range(0,100) % tilemaps.Length;
             currentTilemap = tilemaps[currentTilemapIndex];
             currentTilemap.gameObject.SetActive(true);
         }

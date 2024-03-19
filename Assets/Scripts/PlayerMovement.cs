@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private string horizontalInputAxis = "Horizontal";
     private string verticalInputAxis = "Vertical";
     [SerializeField] private string playerNum;
-
+    
 
     void Start()
     {
